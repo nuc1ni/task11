@@ -1,10 +1,27 @@
 .header {
+    background-image: url('../images/photographer.png');
+    height: 600px;
     max-width: 1440px;
     width: 100%;
     display: flex;
     margin-top: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     
     
+    
+}
+.header-box {
+    position: absolute;
+    max-width: 1440px;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -13,6 +30,7 @@
     align-items: center;
     margin-top: 8px;
     margin-left: 92px;
+    
 }
 .logo-paragraph {
     font-family: 'Pridi', serif;
@@ -20,7 +38,15 @@
     font-weight: 400;
     color: #FA793C;
 }  
+.navigation {
+    
+    max-width: 252px;
+    width: 100%;
+    height: 19px;
+    margin-left: 828px;
+    
 
+}
 .ul-item {
     display: flex;
     flex-direction: row;
@@ -32,14 +58,94 @@
     font-size: 16px;
     font-weight: 400;
     color:  #000000;
-    margin-left: 828px;
-    margin-top: 18px;
+    
+   
+    
     
 }
 .user {
+    
     max-width: 24px;
     height: 24px;
-    margin-top: 15px;
-    margin-left: 40px;
+    
 }
-
+.header-h {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 151px;
+    margin-left: 144px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.header-p {
+    position: absolute;
+    width: 532px;
+    height: 120px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    color: #FFFFFF;
+    margin-top: 247px;
+    margin-left: 162px;
+    line-height: 23.92px;
+}
+.white-box {
+    position: absolute;
+    width: 440px;
+    height: 404px;
+    background-color: #FFFFFF;
+    margin-top: 124px;
+    margin-left: 871px;
+    
+   
+}
+.white-box-h {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-left: 39px;
+    
+   
+}
+.arrow {
+    display: flex;
+    flex-direction: row;
+}
+.left-arrow {
+    width: 24px;
+    height: 24px;
+    margin-top: 39px;
+    margin-left: 106.5px;
+    
+    
+}
+.right-arrow {
+    width: 24px;
+    height: 24px;
+    margin-top: 39px;
+    margin-left: 19px;
+}
+.line {
+    margin-left: 38.5px;
+    border-radius: 1px;
+}
+.white-box-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FA793C;
+    margin-left: 39px;
+    margin-top: 17px;
+}
+.white-box-p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 39px;
+    margin-top: 8px;
+}
