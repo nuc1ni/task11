@@ -1,0 +1,58 @@
+@media (min-width: 200px) and (max-width:375px) {
+    .body {
+        width: 250px;
+        height: 437px;
+    }
+    .user {
+        display: none;
+    }
+    .logo {
+        width: 175px;
+        height: 38px;
+        margin-top:  18px;
+        margin-left: 29px;
+        white-space: nowrap;
+    }
+    .header-box {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navigation {
+        width: 250px;
+        height: 189px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 43px;
+        margin-top: 96px;
+        
+    }
+    .ul-item {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .section1 {
+        display: none;
+    }
+    .section2 {
+        display: none;
+    }
+    .header-content {
+        display: none;
+    }
+    .white-box {
+        display: none;
+    }
+    .header {
+        background-image: none;
+    }
+    .footer {
+        max-width: 250px;
+        width: 100%;
+        height: 57px;
+        margin-top: 95px;
+    }
+}
