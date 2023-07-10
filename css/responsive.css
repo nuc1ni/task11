@@ -56,3 +56,86 @@
         margin-top: 95px;
     }
 }
+@media (min-width: 376px)  and (max-width:834px) {
+    
+
+    .navigation {
+        display: none;
+
+    }
+    .burger-bar {
+        display: inline;
+    }
+    .header-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .header-content {
+        width: 375px;
+        height: 431px;
+    }
+    
+    .section1 {
+        max-width: 348px;
+        width: 90%;
+        height: 831px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section1-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 14px;
+    }
+    .passport {
+        display: none;
+    }
+    .PHOTOGRAPH {
+        margin-left: 14px;
+    }
+    .wraper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        
+    }
+    .girl, 
+    .lake {
+        display: none;
+    }
+    .left-wraper {
+        width: 100%;
+        margin-left: 0;
+    }
+    .sunset-h {
+        font-size: 24px;
+        margin-top: 180px;
+        margin-left: 21px;
+    }
+    .sunset-p {
+        font-size: 12px;
+        margin-top: 221px;
+        margin-left: 21px;
+    }
+    .nature-h {
+        font-size: 24px;
+        margin-top: 188px;
+        margin-left: 21px;
+    }
+    .nature-p {
+        font-size: 12px;
+        margin-top: 229px;
+        margin-left: 21px;
+    }
+    .right-wraper {
+        width: 100%;
+    }
+    .footer {
+        max-width: 375px;
+        height: 100px;
+        width: 100%;
+        margin-top: 0px;
+    }
+}
