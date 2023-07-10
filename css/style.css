@@ -199,3 +199,38 @@
     height: 380px;
     border: 1px solid;
 }
+.PHOTOGRAPH {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 131px;
+    margin-top: 52px;
+
+}
+.wraper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 131px;
+    margin-top: 34px;
+    gap: 20px;
+}
+.left-wraper {
+    width: 779px;
+    height: 886px;
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+.right-wraper {
+    width: 380px;
+    height: 886px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.box2 {
+    width: 380px;
+    height: 280px;
+    border: 1px solid;
+    
+}
