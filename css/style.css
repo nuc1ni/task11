@@ -29,6 +29,7 @@
 }
 
 .logo {
+    width: 100%;
     display: flex;
     align-items: center;
     margin-top: 8px;
@@ -56,7 +57,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 252px;
+    max-width: 252px;
+    width: 100%;
     
     font-family: 'ABeeZee', sans-serif;
     font-size: 16px;
@@ -70,8 +72,12 @@
 .user {
     
     max-width: 24px;
+    
     height: 24px;
     
+}
+.header-content {
+    width: 100%;
 }
 .header-h {
     position: absolute;
@@ -91,7 +97,8 @@
 } 
 .header-p {
     position: absolute;
-    width: 532px;
+    max-width: 532px;
+    width: 100%;
     height: 120px;
     font-family: 'Kanit', sans-serif;
     font-size: 16px;
@@ -314,6 +321,10 @@
     font-weight: 500;
     line-height: 44.85px;
     color: #FFFFFF;
+}
+.white-box-addition {
+    display: none;
+
 }
 
 

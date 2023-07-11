@@ -66,14 +66,24 @@
     .burger-bar {
         display: inline;
     }
+    .header {
+        
+        width: 100%;
+    }
     .header-box {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+    .header-h {
+        width: 100%;
+    }
     .header-content {
-        width: 375px;
-        height: 431px;
+        width: 100%;
+        
+    }
+    .white-box {
+        display: none;
     }
     
     .section1 {
@@ -137,5 +147,29 @@
         height: 100px;
         width: 100%;
         margin-top: 0px;
+    }
+    .white-box-addition {
+        display: inline;
+        max-width: 347px;
+        width: 100%;
+        height: 349px;
+        margin-top: 700px;
+    }
+
+}
+@media (min-width: 835px)  and (max-width:1440px) {
+    .header {
+        width: 100%;
+    }
+    .header-box {
+        width: 100%;
+    }
+    .navigation {
+        width: 100%;
+        margin-left: 497px;
+    }
+    .ul-item {
+       
+        
     }
 }
