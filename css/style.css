@@ -165,6 +165,13 @@
     margin-left: 39px;
     margin-top: 8px;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 .section1-box {
     width: 1180px;
     height: 380px;
